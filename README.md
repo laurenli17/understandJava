@@ -35,3 +35,5 @@ class C implements I {
   - Static methods are inherited
  
 2. Java division: truncating zero (趋近零), not exactly rounding.
+
+3. Javadoc的符号是/** ... */
