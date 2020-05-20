@@ -36,4 +36,32 @@ class C implements I {
  
 2. Java division: truncating zero (趋近零), not exactly rounding.
 
-3. Javadoc的符号是/** ... */
+3. Javadoc的符号是/** ... */ (The notation for Javadoc is /** ... */)
+
+4. [List](https://docs.oracle.com/javase/7/docs/api/index.html?java/util/List.html)
+  - Allow duplicates;
+  - If they allow null elements at all, they typically allow multiple null elements;
+  - Lists are zero based;
+  - Methods Summary:
+    - List interface provides 4 methods for positional access to list elements  
+    - 1 special iterator: ListIterator
+    - 2 methods to search for a specified object:
+    - 2 methods to efficiently insert and remove multiple elements at an arbitrary point in the list:    
+  - > Note: While it is permissible for lists to contain themselves as elements, extreme caution is advised: the equals and hashCode methods are no longer well defined on such a list.
+  - Specific methods:
+    - E get(int index)
+    - boolean add(E e)
+    - void add(int index, E element)
+    - E remove (int index)
+    - boolean remove(Object o)
+    - void clear()
+    - boolean equals(Object o)
+    - boolean contains(Object o)
+    - int size()
+    - E set(int index, E element)
+    - int indexOf(Object o)
+    - int lastIndexOf(Object o)
+    - int hashCode()
+   
+  
+  
