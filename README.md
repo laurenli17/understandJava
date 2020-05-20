@@ -10,7 +10,8 @@ My question and understanding on the path of studying Java
 ```
 class C implements I {
     //bodies 
-    //Java compiler only checks that C contains bodies for the methods in I, but does not check that those bodies are correstly implement the method contracts!
+    //Java compiler only checks that C contains bodies for the methods in I, 
+    //but does not check that those bodies are correstly implement the method contracts!
 }
 ```
 
@@ -62,6 +63,13 @@ class C implements I {
     - int indexOf(Object o)
     - int lastIndexOf(Object o)
     - int hashCode()
+    
+  - Homework thinking:
+    - You may have observed that the add(E e) and remove(int index) methods are marked as optional operations. Briefly discuss the benefits vs. pitfalls of this design decision.
+    - Consider this quote from the java.util.List description:
+> Some list implementations have restrictions on the elements that they may contain. For example, some implementations prohibit null elements, and some have restrictions on the types of their elements.
+
+Briefly discuss the benefits vs. pitfalls of this design decision.
    
   
   
