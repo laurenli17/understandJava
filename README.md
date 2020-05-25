@@ -70,6 +70,8 @@ class C implements I {
 > Some list implementations have restrictions on the elements that they may contain. For example, some implementations prohibit null elements, and some have restrictions on the types of their elements.
 
 Briefly discuss the benefits vs. pitfalls of this design decision.
+
+5. integer range: [−2^31,  2^31 − 1]
    
   
   
