@@ -83,6 +83,10 @@ Briefly discuss the benefits vs. pitfalls of this design decision.
 - "Generic methods are methods that introduce their own type parameters. This is similar to declaring a generic type, but the type parameter's scope is limited to the method where it is declared. Static and non-static generic methods are allowed, as well as generic class constructors."
 - [Oracle explaination](https://docs.oracle.com/javase/tutorial/java/generics/methods.html#:~:text=Generic%20Methods,introduce%20their%20own%20type%20parameters.&text=Static%20and%20non%2Dstatic%20generic,before%20the%20method's%20return%20type.)
 8. Require**s** / Ensure**s** clauses (Both with a 's')
+9. String method s.substring():
+- s = "abcdefg"
+- s.substring(3) = "defg" <Starting from index 3>
+- s.substring(3,5) = "de" <Starting from index 3, end before 5>
 
 
    
