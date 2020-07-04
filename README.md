@@ -87,6 +87,13 @@ Briefly discuss the benefits vs. pitfalls of this design decision.
 - s = "abcdefg"
 - s.substring(3) = "defg" <Starting from index 3>
 - s.substring(3,5) = "de" <Starting from index 3, end before 5>
+10. Instance variable: 
+    - declared in a class, but outside a method, constructor or any block
+    - Instance variables are created when an object is created with the use of the keyword 'new' and destroyed when the object is destroyed.
+    - [Example](https://www.tutorialspoint.com/Instance-variables-in-Java)
+    
+    Static/class variable: 
+    - [Detailed comparison](https://www.geeksforgeeks.org/difference-between-static-and-non-static-variables-in-java/)
 
 
    
