@@ -94,6 +94,7 @@ Briefly discuss the benefits vs. pitfalls of this design decision.
     
     Static/class variable: 
     - [Detailed comparison](https://www.geeksforgeeks.org/difference-between-static-and-non-static-variables-in-java/)
+11. Syntactic sugar: make things easier to read/express.
 
 
    
